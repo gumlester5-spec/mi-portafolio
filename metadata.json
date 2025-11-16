@@ -1,5 +1,8 @@
 {
   "name": "Portafolio de Proyectos",
   "description": "Una aplicación de portafolio elegante y moderna para mostrar proyectos, impulsada por React, Tailwind CSS y la API de Gemini para la generación de ideas de proyectos.",
-  "requestFramePermissions": []
+  "requestFramePermissions": [],
+  "icons": [
+    { "src": "icons/icons8-react-native-128.png", "sizes": "128x128", "type": "image/png" }
+  ]
 }

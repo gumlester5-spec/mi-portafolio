@@ -6,12 +6,12 @@ import React from 'react';
 
 const technologies = [
   // Rutas corregidas para que coincidan con tus archivos en la carpeta /icons
-  { name: 'HTML', iconUrl: 'icons/icons8-html-5-128.png' },
-  { name: 'CSS', iconUrl: 'icons/icons8-css-logo-127.png' },
-  { name: 'JavaScript', iconUrl: 'icons/icons8-javascript-128.png' },
-  { name: 'React', iconUrl: 'icons/icons8-react-native-128.png' }, // Tu archivo es de React Native
-  { name: 'TypeScript', iconUrl: 'icons/icons8-typescript-128.png' },
-  { name: 'Next.js', iconUrl: 'icons/icons8-next.js-128.png' },
+  { name: 'HTML', iconUrl: '/icons/icons8-html-5-128.png' },
+  { name: 'CSS', iconUrl: '/icons/icons8-css-logo-127.png' },
+  { name: 'JavaScript', iconUrl: '/icons/icons8-javascript-128.png' },
+  { name: 'React', iconUrl: '/icons/icons8-react-native-128.png' }, // Tu archivo es de React Native
+  { name: 'TypeScript', iconUrl: '/icons/icons8-typescript-128.png' },
+  { name: 'Next.js', iconUrl: '/icons/icons8-next.js-128.png' },
 ];
 
 // ... (el resto de tu componente TechCarousel)

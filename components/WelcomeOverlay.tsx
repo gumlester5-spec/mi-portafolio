@@ -4,8 +4,7 @@ import React, { useState, useEffect } from 'react';
 const TEXT_SEQUENCE = [
     { text: "Bienvenido a mi portafolio", className: "text-white" },
     { text: "Desarrollo Web", className: "text-cyan-400" },
-    { text: "Desarrollo de Apps Web PWA", className: "bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-purple-500" },
-    { text: "Apps Web con Integración de IA", className: "bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-purple-500" }
+    { text: "Desarrollo de Apps Web PWA", className: "bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-purple-500" }
 ];
 
 const WelcomeOverlay: React.FC = () => {

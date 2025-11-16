@@ -5,50 +5,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portafolio de Proyectos</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            animation: {
-              'fade-in-up': 'fadeInUp 0.5s ease-out forwards',
-              'spin-slow': 'spin 3s linear infinite',
-              'fade-in-custom': 'fadeInUpCustom 1s ease-out forwards',
-              'fade-out-custom': 'fadeOutCustom 1s ease-out forwards',
-              'scroll': 'scroll 40s linear infinite',
-            },
-            keyframes: {
-              fadeInUp: {
-                '0%': { opacity: '0', transform: 'translateY(20px)' },
-                '100%': { opacity: '1', transform: 'translateY(0)' },
-              },
-              fadeInUpCustom: {
-                '0%': { opacity: '0', transform: 'translateY(10px)' },
-                '100%': { opacity: '1', transform: 'translateY(0)' },
-              },
-              fadeOutCustom: {
-                '0%': { opacity: '1', transform: 'translateY(0)' },
-                '100%': { opacity: '0', transform: 'translateY(-10px)' },
-              },
-              scroll: {
-                '0%': { transform: 'translateX(0)' },
-                '100%': { transform: 'translateX(calc(-250px * 7))' },
-              }
-            },
-          },
-        },
-      }
-    </script>
-<script type="importmap">
-{
-  "imports": {
-    "react/": "https://aistudiocdn.com/react@^19.2.0/",
-    "react": "https://aistudiocdn.com/react@^19.2.0",
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
-    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.29.1"
-  }
-}
-</script>
 <style>
     body {
         background-color: #020617; /* Corresponde a slate-950 de Tailwind */

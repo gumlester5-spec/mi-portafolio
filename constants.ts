@@ -4,10 +4,10 @@ import { Project } from './types';
 export const PROJECTS: Project[] = [
   {
     id: 1,
-    title: 'Chatbot de Servicio al Cliente con IA',
-    description: 'Un chatbot inteligente construido con un modelo de lenguaje para automatizar las consultas de los clientes y mejorar la experiencia del usuario.',
-    imageUrl: 'https://picsum.photos/seed/chatbot/600/400',
-    tags: ['React', 'TypeScript', 'IA', 'CSS', 'HTML'],
+    title: 'Aplicación de Chat en Tiempo Real',
+    description: 'Una aplicación de chat para comunicación instantánea, construida con WebSockets para una experiencia de usuario fluida y en tiempo real.',
+    imageUrl: 'https://picsum.photos/seed/chat/600/400',
+    tags: ['React', 'TypeScript', 'WebSockets', 'CSS', 'HTML'],
     githubUrl: '#',
     liveUrl: '#',
   },
