@@ -2,15 +2,19 @@ import React from 'react';
 
 // Ya no se importan los componentes SVG
 
+// ... (import React from 'react';)
+
 const technologies = [
-  // Usamos las rutas a tus archivos PNG, siguiendo el patrón que mencionaste
-  { name: 'HTML', iconUrl: 'icons/icons8-html-128.png' },
-  { name: 'CSS', iconUrl: 'icons/icons8-css-128.png' },
+  // Rutas corregidas para que coincidan con tus archivos en la carpeta /icons
+  { name: 'HTML', iconUrl: 'icons/icons8-html-5-128.png' },
+  { name: 'CSS', iconUrl: 'icons/icons8-css-logo-127.png' },
   { name: 'JavaScript', iconUrl: 'icons/icons8-javascript-128.png' },
-  { name: 'React', iconUrl: 'icons/icons8-react-128.png' },
+  { name: 'React', iconUrl: 'icons/icons8-react-native-128.png' }, // Tu archivo es de React Native
   { name: 'TypeScript', iconUrl: 'icons/icons8-typescript-128.png' },
-  { name: 'Next.js', iconUrl: 'icons/icons8-nextjs-128.png' },
+  { name: 'Next.js', iconUrl: 'icons/icons8-next.js-128.png' },
 ];
+
+// ... (el resto de tu componente TechCarousel)
 
 // Duplicamos el array para un bucle infinito y suave
 const extendedTechnologies = [...technologies, ...technologies, ...technologies];
