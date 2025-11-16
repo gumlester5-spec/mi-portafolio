@@ -1,0 +1,5 @@
+{
+  "name": "Portafolio de Proyectos",
+  "description": "Una aplicación de portafolio elegante y moderna para mostrar proyectos, impulsada por React, Tailwind CSS y la API de Gemini para la generación de ideas de proyectos.",
+  "requestFramePermissions": []
+}
