@@ -13,7 +13,9 @@ const Header: React.FC = () => {
       <p className="mt-4 max-w-2xl mx-auto text-base sm:text-lg text-slate-400">
         Aquí demuestro mi experiencia en desarrollo web con tecnologías como HTML, CSS, JavaScript, React, TypeScript y Next.js.
       </p>
-      <TechCarousel />
+      <div className="my-12 py-6 bg-gradient-to-b from-transparent via-slate-500/10 to-transparent">
+        <TechCarousel />
+      </div>
     </header>
   );
 };

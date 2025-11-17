@@ -21,23 +21,14 @@ const extendedTechnologies = [...technologies, ...technologies, ...technologies]
 
 const TechCarousel: React.FC = () => {
   return (
-    <div className="relative mt-8 w-full max-w-4xl mx-auto overflow-hidden">
-      <div
-        className="absolute inset-y-0 left-0 w-16 bg-gradient-to-r from-slate-950 to-transparent z-10"
-        aria-hidden="true"
-      />
-      <div
-        className="absolute inset-y-0 right-0 w-16 bg-gradient-to-l from-slate-950 to-transparent z-10"
-        aria-hidden="true"
-      />
+    <div className="relative w-full max-w-4xl mx-auto overflow-hidden">
       <div className="flex animate-scroll">
         {extendedTechnologies.map((tech, index) => (
-          <div key={index} className="flex-shrink-0 mx-6 w-16 h-16 flex items-center justify-center" title={tech.name}>
-            {/* Cambiamos el componente SVG por una etiqueta <img> */}
+          <div key={index} className="flex-shrink-0 mx-5 w-14 h-14 flex items-center justify-center" title={tech.name}>
             <img 
               src={tech.iconUrl} 
               alt={`${tech.name} logo`} 
-              className="h-12 w-12 object-contain grayscale transition duration-300 hover:grayscale-0 hover:scale-110" 
+              className="h-10 w-10 object-contain grayscale transition duration-300 hover:grayscale-0 hover:scale-110" 
             />
           </div>
         ))}
