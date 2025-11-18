@@ -58,7 +58,7 @@ const timelineData = [
     date: 'Octubre – Noviembre 2025',
     title: 'Integración de Inteligencia Artificial',
     points: [
-      'Implementé inteligencia artificial en mis proyectos usando Gemini',
+      'Implementé inteligencia artificial en mis proyectos usando Apis',
       'Aprendí a integrar IA una habilidad clave en proyectos modernos',
     ],
   },
