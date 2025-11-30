@@ -1,5 +1,5 @@
-
 import React from 'react';
+import Typewriter from 'typewriter-effect';
 import TechCarousel from './TechCarousel';
 
 const Header: React.FC = () => {
@@ -10,9 +10,21 @@ const Header: React.FC = () => {
           Mi Portafolio
         </span>
       </h1>
-      <p className="mt-4 max-w-2xl mx-auto text-base sm:text-lg text-slate-400">
-        Aquí demuestro mi experiencia en desarrollo web con tecnologías como HTML, CSS, JavaScript, React, TypeScript y Next.js.
-      </p>
+      <div className="mt-4 max-w-2xl mx-auto text-base sm:text-lg text-slate-400 h-16 sm:h-auto">
+        <Typewriter
+          options={{
+            strings: [
+              'Desarrollador Web Full Stack',
+              'Experto en React y TypeScript',
+              'Creador de Experiencias Digitales',
+            ],
+            autoStart: true,
+            loop: true,
+            delay: 50,
+            deleteSpeed: 30,
+          }}
+        />
+      </div>
       <div className="my-12 py-6 bg-gradient-to-b from-transparent via-slate-500/10 to-transparent">
         <TechCarousel />
       </div>

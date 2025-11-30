@@ -19,7 +19,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
       href={project.link}
       target="_blank"
       rel="noopener noreferrer"
-      className={`block group bg-slate-800/50 rounded-lg overflow-hidden shadow-lg hover:shadow-cyan-500/20 transition-all duration-500 h-full ${inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
+      className={`block group bg-slate-800/50 rounded-lg overflow-hidden shadow-lg border border-white/5 hover:shadow-2xl hover:shadow-cyan-500/20 hover:border-cyan-500/40 hover:-translate-y-2 transition-all duration-300 h-full ${inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
       style={{ transitionDelay: `${index * 100}ms` }}
     >
       <img src={project.imageUrl} alt={`Captura de pantalla de ${project.title}`} className="w-full h-48 object-cover group-hover:opacity-90 transition-opacity" />
