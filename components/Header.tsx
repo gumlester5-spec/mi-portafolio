@@ -4,7 +4,7 @@ import TechCarousel from './TechCarousel';
 
 const Header: React.FC = () => {
   return (
-    <header className="text-center mb-12 md:mb-16 animate-fade-in-up">
+    <header id="home" className="text-center mb-12 md:mb-16 animate-fade-in-up">
       <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-white tracking-tight">
         <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-indigo-500">
           Mi Portafolio

@@ -1,12 +1,10 @@
-
 import React from 'react';
 import { PROJECTS } from '../constants';
 import ProjectCard from './ProjectCard';
 
 const ProjectList: React.FC = () => {
   return (
-    <section className="mb-16 md:mb-24 space-y-16">
-      {/* Sección 1: HTML, CSS, JS */}
+    <section id="projects" className="mb-16 md:mb-24 space-y-16">
       <div>
         <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center sm:text-left border-b-2 border-cyan-500/30 pb-4 tracking-wide">
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-purple-500">
@@ -20,7 +18,6 @@ const ProjectList: React.FC = () => {
         </div>
       </div>
 
-      {/* Sección 2: TypeScript, Next.js, HTML, React */}
       <div>
         <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center sm:text-left border-b-2 border-cyan-500/30 pb-4 tracking-wide">
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-purple-500">
@@ -34,7 +31,6 @@ const ProjectList: React.FC = () => {
         </div>
       </div>
 
-      {/* Sección 3: TypeScript, HTML, React */}
       <div>
         <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center sm:text-left border-b-2 border-cyan-500/30 pb-4 tracking-wide">
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-purple-500">

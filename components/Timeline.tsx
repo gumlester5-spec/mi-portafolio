@@ -62,26 +62,32 @@ const timelineData = [
       'Aprendí a integrar IA una habilidad clave en proyectos modernos',
     ],
   },
+  {
+    date: 'Finales Noviembre 2025',
+    title: 'Backend y Bases de Datos',
+    points: [
+      'Aprendí a diseñar bases de datos relacionales con SQL',
+      'Implementé Supabase como Backend-as-a-Service',
+      'Creación de tablas, políticas RLS (seguridad) y consultas complejas',
+    ],
+  },
 ];
 
 const Timeline: React.FC = () => {
   return (
-    <section className="mb-16 md:mb-24">
+    <section id="timeline" className="mb-16 md:mb-24">
       <h2 className="text-2xl md:text-3xl font-bold mb-12 text-center tracking-wide">
         <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-purple-500">
           Línea de Tiempo (Abril – Noviembre 2025)
         </span>
       </h2>
       <div className="relative max-w-3xl mx-auto px-4">
-        {/* La línea vertical central (solo visible en pantallas medianas y grandes) */}
         <div className="absolute left-4 md:left-1/2 top-0 h-full w-0.5 bg-cyan-500/20"></div>
 
         {timelineData.map((item, index) => (
           <div key={index} className="relative pl-12 md:pl-0 mb-12">
-            {/* El punto en la línea de tiempo */}
             <div className="absolute left-4 md:left-1/2 top-1 -translate-x-1/2 w-4 h-4 bg-cyan-400 rounded-full border-2 border-slate-900"></div>
 
-            {/* Contenedor de la tarjeta */}
             <div className={`md:w-1/2 ${index % 2 === 0 ? 'md:ml-auto md:pl-8' : 'md:mr-auto md:pr-8'}`}>
               <div className="bg-slate-800/50 p-6 rounded-lg shadow-lg border border-white/10">
                 <span className="font-bold text-indigo-400 text-sm tracking-wide">{item.date}</span>

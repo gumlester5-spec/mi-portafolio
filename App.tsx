@@ -5,6 +5,7 @@ import Timeline from './components/Timeline';
 import Header from './components/Header';
 import ProjectList from './components/ProjectList';
 import WelcomeOverlay from './components/WelcomeOverlay';
+import Contact from './components/Contact';
 
 const App: React.FC = () => {
   return (
@@ -14,6 +15,7 @@ const App: React.FC = () => {
         <Header />
         <ProjectList />
         <Timeline />
+        <Contact />
       </Layout>
     </>
   );
